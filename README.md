@@ -1,10 +1,15 @@
 # hardhat-bug
 
+The address of a deployed contract is solely determined by the sender address of the creation transaction and its nonce.  In particular, this means when a specified account with a specified nonce creates a contract, the resulting address should always be the same regardless of changes in Hardhat.
+
+However, it turns out that this does not hold for impersonated accounts in Hardhat 2.6.x, depending on the versions of installed dependencies allowed by Hardhat's requirements.  
+
+
 ## Steps to reproduce:
 
 1. Clone repo
 
-2. `yarn` to install the deps
+2. `yarn` to install the deps from the included lockfile
 
 3. `yarn hardhat test` to run the test in `test/bug.js`
 
