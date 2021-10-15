@@ -1,0 +1,12 @@
+{
+  "name": "hardhat-bug",
+  "version": "1.0.0",
+  "description": "Repo to reproduce Hardhat bug for incorrect deployed address from impersonated account",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "ethers": "5.4.7",
+    "hardhat": "2.5.0"
+  }
+}
