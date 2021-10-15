@@ -1,2 +1,7 @@
+# hardhat
+/artifacts
+/cache
+
+# npm / yarn
 /node_modules
 yarn-error.log
