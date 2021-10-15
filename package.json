@@ -6,6 +6,7 @@
   "license": "MIT",
   "dependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "chai": "^4.3.4",
     "ethers": "5.4.7",
     "hardhat": "2.5.0"
   }
